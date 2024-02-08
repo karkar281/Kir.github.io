@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    @import url"https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+    font-family: 'Oswald', sans-serif;
+}
+main{
+    margin:50px 20%;
+    background-color: rgb(231, 247, 255);
+    border-radius: 20px;
+    padding: 50px;
+    min-height: calc(100vh - 92px - 80px - 100px);
+}
+img{
+    width:calc(100% - 25px)
+}
